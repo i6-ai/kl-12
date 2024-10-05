@@ -1,0 +1,29 @@
+/* YourComponent.css */
+
+.personal-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text inside each item */
+    margin: 20px; /* Optional: add some spacing around */
+  }
+  
+  .profile-image {
+    border-radius: 50%; /* Optional: make the image circular */
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    object-fit: cover; /* Ensure the image covers the area */
+  }
+  
+  .name {
+    margin: 10px 0; /* Space between items */
+  }
+  
+  .tagline {
+    margin: 5px 0; /* Space between items */
+  }
+  
+  .about {
+    margin: 10px 0; /* Space between items */
+  }
+  

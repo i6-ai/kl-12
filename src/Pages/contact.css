@@ -1,0 +1,68 @@
+.contact-container {
+  max-width: 600px; /* Limit the width of the container */
+  margin: 20px auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #f9f9f9; /* Change background to light gray */
+}
+
+.contact-title {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+  font-size: 2.5rem; /* Font size for the title */
+  color: #333; /* Change text color to dark gray */
+}
+
+.contact-form {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack items vertically */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+.label {
+  margin-bottom: 5px; /* Space below the label */
+  color: #333; /* Change label color to dark gray */
+}
+
+.input,
+.textarea {
+  padding: 10px; /* Padding inside inputs/textarea */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light border */
+  font-size: 16px; /* Font size for inputs */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  margin-left: 30px; /* Adjust left margin if needed */
+  color: #333; /* Change input text color to dark gray for visibility */
+  background-color: #fff; /* White background for inputs */
+}
+
+.textarea {
+  min-height: 100px; /* Minimum height for the textarea */
+}
+
+.button {
+  padding: 10px; /* Padding inside button */
+  border-radius: 4px; /* Rounded corners */
+  border: none; /* No border */
+  background-color: #28a745; /* Green background */
+  color: #fff; /* White text color */
+  font-size: 16px; /* Font size for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.button:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
+
+.response {
+  text-align: center; /* Center the response message */
+  margin-top: 10px; /* Space above the response */
+  color: #333; /* Change response color to dark gray */
+  font-size: 1.2rem; /* Larger font size for response */
+}
